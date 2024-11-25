@@ -45,3 +45,5 @@ A diferencia de CSS, las propiedades de estilo en JS las escribimos usando el fo
    */
 
 console.log("Valores en linea. Color: " + titulo.style.color + " - Fondo: " + titulo.style.backgroundColor)
+
+/* comentario agregado */
