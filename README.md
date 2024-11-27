@@ -1,4 +1,4 @@
-# DOM-
+# DOM
 Aquí se lanzan los códigos de Dom
 
 El DOM (Document Object Model) o Modelo de Objetos del Documento.
