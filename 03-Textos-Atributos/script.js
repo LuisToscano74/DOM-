@@ -87,3 +87,50 @@ Asignamos el valor el elemento seleccionado
 
 titulo.innerHTML = "Amigos <span>poderosos</span>!";
 lista.innerHTML = "<li>Black Widow 🕷️🔫</li><li>Thor ⛈️🔨</li>"
+
+/* 
+
+getAttribute()
+
+Devuelve el valor del atributo del elemento.
+
+elemento.getAttribute(atributo) 
+
+*/
+
+const enlace = document.getElementsByTagName("a");
+
+/*  */
+
+enlace[0].removeAttribute("href");
+
+console.log(enlace[0].getAttribute("href"))
+
+/* 
+
+setAttribute()
+
+Asigna un atributo y un valora a un elemento.
+
+elemento.setAttribute( atributo , valor)
+
+- Sobreescribir un atributo ya declarado. 
+- Crea un atributo y su valor. 
+
+commit -m "Terminamos textos y atributos del DOM"
+
+*/
+
+enlace[0].setAttribute("href", "https://www.instagram.com");
+
+console.log(enlace[0].getAttribute("href"));
+
+// Antes 
+
+console.log(enlace[0].getAttribute("target"));
+
+enlace[0].setAttribute("target", "_blank");
+
+// Después
+
+console.log(enlace[0].getAttribute("target"));
