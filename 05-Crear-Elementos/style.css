@@ -1,0 +1,52 @@
+body {
+  background-color: lightcoral;
+  font-family:sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 32px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: yellow;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 12px 8px;
+  color:whitesmoke;
+  margin-bottom: 32px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bg-one {
+ background-color: lightsalmon;
+}
+
+.bg-one:hover {
+  background-color: firebrick;
+}
+
+.bg-two {
+  background-color: teal;
+}
+
+.bg-two:hover {
+  background-color: aquamarine;
+  color:black;
+}
+
